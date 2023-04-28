@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./display-svg.component.css']
 })
 export class DisplaySvgComponent {
-helloWorld(params: any){
-  console.log("hello", params)
-}
+  getCountryValue(params: any){
+    console.log(params.srcElement.classList.value)
+    console.log(params.srcElement.id)
+  }
 }
