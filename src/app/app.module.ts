@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DisplaySvgComponent } from './display-svg/display-svg.component';
 import { HttpClientModule } from '@angular/common/http';
+import { WorldComponent } from './world/world.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DisplaySvgComponent
+    DisplaySvgComponent,
+    WorldComponent
   ],
   imports: [
     BrowserModule,
